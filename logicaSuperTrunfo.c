@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 
 /*----------------------- Lógica Super Trunfo - Nível Novato -----------------------
 Objetivo: Cadastro e Comparação de Cartas*/
