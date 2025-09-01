@@ -73,7 +73,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos_turisticos2);
     
-    // Escolha do Atributo para Comparacao
+    // Escolha do Atributo para Comparação
     printf("\n--- Escolha do Atributo para Comparação ---\n");
     printf("1. População\n");
     printf("2. Área\n");
@@ -82,15 +82,15 @@ int main() {
     printf("Escolha o atributo (1-4): ");
     scanf("%d", &atributo_escolhido);
 
-    // Comparacao das Cartas com base na escolha
+    // Comparação das Cartas com base na escolha.
     
-    // Compara a populacao se a escolha for 1.
+    // Compara a população se a escolha for 1.
     if (atributo_escolhido == 1) { 
         printf("\nComparando por População...\n");
         if (populacao1 > populacao2) { 
             printf("A carta de %s (%c%s) venceu!\n", nome_cidade1, estado1, codigo1);
         } else {
-            // Se nao for maior, verifica se a segunda e maior ou se e um empate.
+            // Se não for maior, verifica se a segunda é maior ou se é um empate.
             if (populacao2 > populacao1) {
                 printf("A carta de %s (%c%s) venceu!\n", nome_cidade2, estado2, codigo2);
             } else {
@@ -99,7 +99,7 @@ int main() {
         }
     }
 
-    // Compara a area se a escolha for 2.
+    // Compara a área se a escolha for 2.
     if (atributo_escolhido == 2) { 
         printf("\nComparando por Área...\n");
         if (area1 > area2) { 
@@ -127,7 +127,7 @@ int main() {
         }
     }
 
-    // Compara os pontos turisticos se a escolha for 4.
+    // Compara os pontos turísticos se a escolha for 4.
     if (atributo_escolhido == 4) { 
         printf("\nComparando por Pontos Turísticos...\n");
         if (pontos_turisticos1 > pontos_turisticos2) { 
